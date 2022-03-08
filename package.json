@@ -1,0 +1,35 @@
+{
+  "name": "ahj_11_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordov-andrey/ahj_11_back.git"
+  },
+  "author": "Andrey Gordov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordov-andrey/ahj_11_back/issues"
+  },
+  "homepage": "https://github.com/gordov-andrey/ahj_11_back#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.1.1",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.2.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
